@@ -118,7 +118,8 @@ font-weight: light;
   padding: 20px;
 }
 .navigation {
-  display: flex;
+  top:50%;
+	display: flex;
  
   justify-content: space-around;
   border: 2px solid;
