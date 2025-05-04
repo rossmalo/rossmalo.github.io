@@ -114,13 +114,14 @@ font-weight: light;
 }
 .navigation {
   display: flex;
-  width:60%;
+ 
   justify-content: space-around;
   border: 2px solid;
   border-color: black;
   background-color: white;
   padding: 20px;
-	margin: 0 auto;
+	width: 85vw;
+    margin: 0 auto;
     overflow: auto;
 
 }
