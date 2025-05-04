@@ -75,9 +75,12 @@ body{background-image: url("../images/tileD.gif");
 background-position: center;
 	background-attachment: fixed;}
 body{
-	height= 100%
+	
 	background-position: center;
 	background-attachment: fixed;
+	display:flex;
+	height:100vh;
+	align-items:center;
 
 }
 footer{
