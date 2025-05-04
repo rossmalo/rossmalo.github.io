@@ -120,6 +120,8 @@ font-weight: light;
   border-color: black;
   background-color: white;
   padding: 20px;
+	margin: 0 auto;
+    overflow: auto;
 
 }
 
