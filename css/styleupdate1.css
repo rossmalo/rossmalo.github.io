@@ -222,6 +222,14 @@ figcaption {
   width: 30%;
   height: auto;
   border:solid 1px white;
+
+}
+  
+.bigvideo {
+  width: 55%;
+  height: auto;
+  display: block;
+}
    
 }
   @media screen and (max-width: 1350px) {
