@@ -18,7 +18,7 @@ header{
 }
 
 h1{ font-family:Courier New ;
-    font-size: 17px;
+    font-size: 20px;
 	font-weight: 1;
 	color: white;
 	padding: 5px;
@@ -27,7 +27,7 @@ h1{ font-family:Courier New ;
 	
 }
 h3{ font-family:Courier New ;
-    font-size: 14px;
+    font-size: 18px;
 	font-weight: 1;
 	color: white;
 	padding: 5px;
@@ -193,7 +193,17 @@ hr { border-color: white
   max-width: none;
  
 }
-
+.videoupdate {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 1);
+  padding: 20px;          /* Removed duplicate padding */
+  width: 100%;
+  gap: 30px;
+  max-width: 100%;        /* Changed from none to 100% for better control */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
 .updatemid
 {
   background-color: rgba(0,0,0,1);
@@ -201,6 +211,9 @@ hr { border-color: white
   width: 100%;
   text-align: left;
  
+}
+body {
+  background-color: black !important;
 }
 a:link {
  }
@@ -227,8 +240,10 @@ figcaption {
   
 .bigvideo {
   width: 55%;
+
   height: auto;
   display: block;
+  outline: 1px solid white;
 }
    
 }
@@ -236,45 +251,54 @@ figcaption {
   .bannerlogo {
     background-color:rgba(255,255,255,1);
   }
+  }
 @media screen and (max-width: 1350px) {
   h4 {
     font-size: 25px; 
 	font-weight: light;
   }
+}
   @media screen and (max-width: 1350px) {
   h3 {
-    font-size: 18px; 
+    font-size: 20px; 
 	
+  }
   }
   @media screen and (max-width: 1350px) {
   .navigation {
     padding: 19px; 
 	width:100%;
   }
+  }
       @media screen and (max-width: 1350px) {
   .update {
     width: 90%;
 	padding: 20px;
   }
+	  }
         @media screen and (max-width: 1350px) {
   .updatetop {
     width: 100%;
 	padding: 5px;
   }
+		}
         @media screen and (max-width: 1350px) {
   .updatemid {
     padding: 5px;
   }
+		}
           @media screen and (max-width: 1350px) {
   .photoupdate {
     padding: 10px;
 	gap:10px;
   }
+		  }
     @media screen and (max-width: 1350px) {
   figure {
     font-size: 10px;
 	
   }
+	}
       @media screen and (max-width: 1350px) {
   .responsive {
     width:30%;
@@ -283,27 +307,36 @@ figcaption {
   .responsivebig {
     width:40%;
   }
+		}
       @media screen and (max-width: 1350px) {
   .bodyflex {
     gap: 0px;
 	padding: 5px;
 
   }
-
+	  }
   @media screen and (max-width: 1350px) {
   h1 {
-    font-size: 20px; 
+    font-size: 23px; 
 	
   }
-
+  }
     @media screen and (max-width: 1350px) {
   h2 {
     font-size: 11px; 
 	
   }
-
+  }
     @media screen and (max-width: 1350px) {
   p {
     font-size: 16px;
 	font-weight: light;
   }
+
+      @media (max-width: 1350px) {
+      .bigvideo {
+        width: 80%;
+      }
+
+
+}
