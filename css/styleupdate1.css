@@ -36,7 +36,7 @@ h3{ font-family:Courier New ;
 	
 }
 h4{ font-family: Courier New;
-    font-size: 20px;
+    font-size: 14px;
 	color: white;
 	font-weight: 1;
 	
@@ -62,12 +62,6 @@ h5{ font-family:Courier New ;
 	
 	
 }
-h4{ font-family: Courier New;
-    font-size: 20px;
-	color: black;
-	font-weight: 1;
-	
-	
 }
 
 body{
@@ -252,17 +246,8 @@ figcaption {
     background-color:rgba(255,255,255,1);
   }
   }
-@media screen and (max-width: 1350px) {
-  h4 {
-    font-size: 25px; 
-	font-weight: light;
-  }
-}
-  @media screen and (max-width: 1350px) {
-  h3 {
-    font-size: 18px; 
-	
-  }
+
+
   }
   @media screen and (max-width: 1350px) {
   .navigation {
@@ -315,11 +300,7 @@ figcaption {
 
   }
 	  }
-  @media screen and (max-width: 1350px) {
-  h1 {
-    font-size: 23px; 
-	
-  }
+
   }
     @media screen and (max-width: 1350px) {
   h2 {
@@ -338,5 +319,19 @@ figcaption {
         width: 80%;
       }
 
-
+	          @media screen and (max-width: 1350px) {
+  h4 {
+    font-size: 12px ;
+  }
+		}
+			          @media screen and (max-width: 1350px) {
+  h3 {
+    font-size: 16px ;
+  }
+		}
+			          @media screen and (max-width: 1350px) {
+  h1 {
+    font-size: 18px ;
+  }
+		}
 }
